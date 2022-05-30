@@ -26,3 +26,5 @@ function displayTypeCode(code:(string | number)) {
 displayTypeCode(123); // Output: Code is number.
 displayTypeCode("ABC"); // Output: Code is string.
 // displayTypeCode(true)   // Compiler error since it only expects string and numbers as types.
+
+

@@ -1,3 +1,4 @@
+"use strict";
 /*
 
 Enums or enumerations are a new data type supported in TypeScript. Most object-oriented languages like Java and C# use enums. This is now available in TypeScript too.
@@ -52,8 +53,8 @@ function getMedia(mediaName) {
     }
     return PrintMedia3.Book;
 }
-var mediaType = getMedia('Forbes');
-console.log("this is the media type", mediaType);
+let mediaType = getMedia('Forbes');
+console.log(`this is the media type`, mediaType);
 /*
 
 Computed Enums

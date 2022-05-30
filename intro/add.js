@@ -1,5 +1,6 @@
-var addNumbers = function (a, b) {
+"use strict";
+function addNumbers(a, b) {
     return a + b;
-};
+}
 var sum = addNumbers(10, 15);
-console.log("Sum of the two numbers is ".concat(sum));
+console.log(`Sum of the two numbers is ${sum}`);
